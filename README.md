@@ -10,7 +10,7 @@
 ###### Author: Ibrahem Alomari
 
 * ##### [Actions](https://github.com/ibrahemomari/bearer-auth/actions)
-* ##### [Pull Request]()
+* ##### [Pull Request](https://github.com/ibrahemomari/bearer-auth/pull/1)
 * ##### [Heroku](https://ibrahem-basic-api-server.herokuapp.com/)
 
 ---
