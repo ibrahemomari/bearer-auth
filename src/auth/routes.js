@@ -33,6 +33,9 @@ authRouter.get('/users', bearerAuth, async (req, res, next) => {
   const list = user.map(user => user.username);
   res.status(200).json(list);
 });
+authRouter.get('/', async (req, res, next) => {
+  res.status(200).send('server is working :) :)');
+});
 
 authRouter.get('/secret', bearerAuth, async (req, res, next) => {
   res.status(200).send("Welcome to the secret area!")
